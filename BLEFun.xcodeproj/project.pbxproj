@@ -10,8 +10,8 @@
 		FA2A63F118930D3A00011699 /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A63F018930D3A00011699 /* CBUUID+StringExtraction.m */; };
 		FA2A63F618930D4500011699 /* CentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A63F318930D4500011699 /* CentralManager.m */; };
 		FA2A63F718930D4500011699 /* PeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A63F518930D4500011699 /* PeripheralManager.m */; };
-		FA2A63FA18930D6400011699 /* ReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A63F918930D6400011699 /* ReceiverViewController.m */; };
-		FA2A63FD18930D8200011699 /* RemoteControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A63FC18930D8200011699 /* RemoteControllerViewController.m */; };
+		FA2A640218932E0100011699 /* ReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A63FF18932E0100011699 /* ReceiverViewController.m */; };
+		FA2A640318932E0100011699 /* RemoteControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A640118932E0100011699 /* RemoteControllerViewController.m */; };
 		FA2B3EB51891D90400CCF126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B3EB41891D90400CCF126 /* Foundation.framework */; };
 		FA2B3EB71891D90400CCF126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B3EB61891D90400CCF126 /* CoreGraphics.framework */; };
 		FA2B3EB91891D90400CCF126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B3EB81891D90400CCF126 /* UIKit.framework */; };
@@ -45,10 +45,10 @@
 		FA2A63F318930D4500011699 /* CentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralManager.m; sourceTree = "<group>"; };
 		FA2A63F418930D4500011699 /* PeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralManager.h; sourceTree = "<group>"; };
 		FA2A63F518930D4500011699 /* PeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralManager.m; sourceTree = "<group>"; };
-		FA2A63F818930D6400011699 /* ReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiverViewController.h; path = ../ReceiverViewController.h; sourceTree = "<group>"; };
-		FA2A63F918930D6400011699 /* ReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiverViewController.m; path = ../ReceiverViewController.m; sourceTree = "<group>"; };
-		FA2A63FB18930D8200011699 /* RemoteControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteControllerViewController.h; path = ../RemoteControllerViewController.h; sourceTree = "<group>"; };
-		FA2A63FC18930D8200011699 /* RemoteControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteControllerViewController.m; path = ../RemoteControllerViewController.m; sourceTree = "<group>"; };
+		FA2A63FE18932E0100011699 /* ReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverViewController.h; sourceTree = "<group>"; };
+		FA2A63FF18932E0100011699 /* ReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverViewController.m; sourceTree = "<group>"; };
+		FA2A640018932E0100011699 /* RemoteControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControllerViewController.h; sourceTree = "<group>"; };
+		FA2A640118932E0100011699 /* RemoteControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControllerViewController.m; sourceTree = "<group>"; };
 		FA2B3EB11891D90400CCF126 /* BLEFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2B3EB41891D90400CCF126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA2B3EB61891D90400CCF126 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,10 +127,10 @@
 		FA2B3EBA1891D90400CCF126 /* BLEFun */ = {
 			isa = PBXGroup;
 			children = (
-				FA2A63FB18930D8200011699 /* RemoteControllerViewController.h */,
-				FA2A63FC18930D8200011699 /* RemoteControllerViewController.m */,
-				FA2A63F818930D6400011699 /* ReceiverViewController.h */,
-				FA2A63F918930D6400011699 /* ReceiverViewController.m */,
+				FA2A63FE18932E0100011699 /* ReceiverViewController.h */,
+				FA2A63FF18932E0100011699 /* ReceiverViewController.m */,
+				FA2A640018932E0100011699 /* RemoteControllerViewController.h */,
+				FA2A640118932E0100011699 /* RemoteControllerViewController.m */,
 				FA2A63F218930D4500011699 /* CentralManager.h */,
 				FA2A63F318930D4500011699 /* CentralManager.m */,
 				FA2A63F418930D4500011699 /* PeripheralManager.h */,
@@ -278,10 +278,10 @@
 				FA2A63F718930D4500011699 /* PeripheralManager.m in Sources */,
 				FA2B3EC51891D90400CCF126 /* AppDelegate.m in Sources */,
 				FA2B3EC11891D90400CCF126 /* main.m in Sources */,
-				FA2A63FD18930D8200011699 /* RemoteControllerViewController.m in Sources */,
+				FA2A640318932E0100011699 /* RemoteControllerViewController.m in Sources */,
 				FA2A63F618930D4500011699 /* CentralManager.m in Sources */,
 				FA2A63F118930D3A00011699 /* CBUUID+StringExtraction.m in Sources */,
-				FA2A63FA18930D6400011699 /* ReceiverViewController.m in Sources */,
+				FA2A640218932E0100011699 /* ReceiverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
